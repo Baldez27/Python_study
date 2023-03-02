@@ -1,3 +1,4 @@
-import math
-n1 = float(input('Digite um valor: '))
-print('A porção inteira de {} é igual a {}'.format(n1, math.trunc(n1)))
+dias = int(input('Quantos dias alugados? '))
+distancia = float(input('Quantos KM rodados? '))
+total_pagar = (dias * 60) + (distancia * 0.15)
+print('O total a pagar é de R$ {:.2f}'.format(total_pagar))

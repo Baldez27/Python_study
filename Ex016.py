@@ -1,4 +1,3 @@
-n1 = float(input('Digite o valor do cateto oposto: '))
-n2 = float(input('Digite o valor do cateto adjacente: '))
-hipot = (n1 * n1) + (n2 * n2)
- 
+import math
+n1 = float(input('Digite um valor: '))
+print('A porção inteira de {} é igual a {}'.format(n1, math.trunc(n1)))
